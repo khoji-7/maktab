@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My maktab</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <img src="https://my.maktab.uz/images/design/logo.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="https://my.maktab.uz/images/design/qabul.svg" alt="">
+                    </li>
+                </ul>
+                <p class="navbarP">
+                    O`zbekiston Respublikasi Maktabgacha va maktab ta`limi vazirligi
+                </p>
+                <div class="dropdownSidebar">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle">O'z</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Ўзбек</a>
+                            <a href="#" class="dropdown-item">Русский</a>
+                            <a href="#" class="dropdown-item active">O’zbek</a>
+                        </div>
+                    </div>
+                  
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="main">
+                <h1>O'quvchilarni umumta'lim maktablariga onlayn qabul qilish va boshqa maktabga o'tkazish tizimi</h1>
+                <a href="./kirish.html" id="openModal" class="royxatdanOtish">Ro'yxatdan o'tish</a>
+                <p class="mainP">O’quvchilarni umumta’lim maktablariga onlayn qabul qilish va boshqa maktabga o’tkazish bo’yicha hududlar ro’yxati <a href="#" class="mainPlink">Hududlar ro'yhati</a></p>
+            </div>
+        </div>
+    </section>
+
+    <button id="openSidebarBtn">Ro'yxatdan o'tish</button>
+
+    <div id="sidebar" class="sidebar">
+        <div class="close-btn" onclick="closeSidebar()">×</div>
+        <h2>Kirish / Ro'yxatdan o'tish</h2>
+        <p>Ro'yxatdan o'tish uchun mobil raqamingizni kiriting</p>
+        <input type="text" placeholder="MOBIL RAQAM"  >
+        <p class="error-message">Bu telefon raqam orqali tizimda ro'yxatdan o'tilmagan. Ro'yxatdan o'tish uchun o'zingiz parol o'ylab toping.</p>
+        <input type="password" placeholder="PAROL">
+        <input type="password" placeholder="PAROLNI TASDIQLANG">
+        <p class="info-message">+998-77-777-77-77 raqamingizga yuborilgan sms kodni kiriting</p>
+        <input type="text" placeholder="SMS KOD" value="123456">
+        <button onclick="register()">Ro'yxatdan o'tish</button>
+        <a href="./malumotlar.html">
+             <button class="kirishbtn">Kirish</button>
+        </a>
+    </div>
+
+    <script>document.getElementById('openSidebarBtn').addEventListener('click', openSidebar);
+
+        function openSidebar() {
+            document.getElementById('sidebar').style.display = 'flex';
+        }
+        
+        function closeSidebar() {
+            document.getElementById('sidebar').style.display = 'none';
+        }
+        
+        function register() {
+            alert('Ro\'yxatdan o\'tish jarayoni amalga oshirildi!');
+        }
+        
+    </script>
+</body>
+
+
+
+</html>

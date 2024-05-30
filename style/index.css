@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1360px;
+    width: 100%;
+    margin: 20px auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1360px;
+    gap: 20px;
+}
+.navbarP{
+    width: 328px;
+    height: 100%;
+    font-size: 20px;
+    margin-left: 16px;
+    font-family: Golos;
+    color: #426f75;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-menu .dropdown-item.active {
+    color: green;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdownSidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-button {
+    background-color: #50e3c2;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.open-button:hover {
+    background-color: #45d1af;
+}
+/*  */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+
+}
+h1{
+    font-size: 45px;
+    font-family: golos;
+    width: 700px;
+    margin-top: 80px;
+    font-weight: 400;
+
+}
+a{
+    text-decoration: none;
+}
+.royxatdanOtish{
+    font-size: 64px;
+    color: #00b894;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    transition-property: color;
+    transition-duration: .3s;
+    margin-top: 20px;
+}
+.mainP{
+    margin-top: 48px;
+    padding-right: 192px;
+    font-size: 17px;
+}
+
+/*  */
+
+
+#openSidebarBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #00ffaf;
+    color: white;
+    margin: 20px;
+    width: 400px;
+    justify-content: center;
+}
+
+#openSidebarBtn:hover {
+    background-color: #00e09e;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.close-btn {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #00ffaf;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00e09e;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.info-message {
+    color: #666;
+    text-align: center;
+}
+.kirishbtn{
+    width: 240px;
+    padding: 10px;
+    background-color: #00ffaf;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}

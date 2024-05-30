@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1360px;
+    margin: 20px auto;
+    
+}
+.navbarP{
+    width: 328px;
+    height: 100%;
+    font-size: 20px;
+    margin-left: 16px;
+    font-family: Golos;
+    color: #426f75;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-menu .dropdown-item.active {
+    color: green;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* main   */
+.main{
+    max-width: 1300px;
+    width: 100%;
+    margin: 40px auto
+}
+h1{
+    width: 1200px;
+    font-size: 48px;
+    color: rgb(0, 61, 69);
+    font-family: golos;
+    margin-bottom: 20px;
+}
+p{
+    width: 1200px;
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: golos;
+    margin-bottom: 10px;
+}
+.fuqarolik{
+    font-style: italic;
+    font-size: 16px;
+}
+.inputParentt{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 1360px;
+    height: auto;
+    
+}
+.inputParents{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 1360px;
+    height: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.inputParent{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1360px;
+    height: auto;
+    
+}
+.inputChil{
+    width: 620px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 10px;
+
+}
+.inputChild{
+    width: 278px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 10px;
+
+}
+.inputChildF{
+    width: 960px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+input{
+    border: none;
+    background-color: #ebebeb ;
+    text-transform: uppercase;
+}
+
+.searchBtn{
+    width: 278px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid black;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+.searchBtnn{
+    width: 278px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid black;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 20px 0 20px 1020px;
+
+}
+
+
+button:hover{
+    background-color: #50e3c2;
+}
+.nextBtn{
+    max-width: 200px;
+    width: 100%;
+    margin-left: 860px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+}
+.nextBtnn{
+    max-width: 200px;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+
+}
+
+
+.fuqaroligi{
+    width: 620px;
+    height: 58px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin-top: 20px;
+}

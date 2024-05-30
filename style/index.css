@@ -8,6 +8,8 @@
     max-width: 1360px;
     width: 100%;
     margin: 20px auto;
+    justify-content: center;
+    
 }
 ul{
     list-style: none;
@@ -219,4 +221,38 @@ button:hover {
     font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+
+
+/* my */
+
+.headers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1360px;
+    padding: 30px 20px;
+
+}
+.myAriza{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-color:#e3e2e2 ;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 50px;
+}
+.myAriza:hover{
+    background-color: #00e09e;
+
+}
+
+
+/*  */
+
+
+.listName{
+    width: 400px;
 }
